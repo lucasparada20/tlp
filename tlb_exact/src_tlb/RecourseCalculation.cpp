@@ -682,7 +682,7 @@ void RecourseCalculation::Calculate(int bound_type, std::vector<std::vector<int>
 
             for (int e = 0; e < scs->GetScenarioCount(); e++)
             {
-				if (bound_type == STATION_LOWER_BOUND)
+		if (bound_type == STATION_LOWER_BOUND)
                 {
                     if (min_lb > h_si[e][i] || (min_lb == h_si[e][i] && opt_si[e][i]))
                     {
